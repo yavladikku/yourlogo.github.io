@@ -1,0 +1,84 @@
+// main: ../style.less
+
+.blue {
+    background: @blue;
+}
+
+.services__title {
+     h1 {
+        padding-top: 180px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        color: @black;
+    }
+    
+    h4 {
+        width: 50%;
+        margin: 40px auto 125px;
+        color: @black;
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: normal;
+    }
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31%;
+    background: white;
+    color: @black;
+    
+    margin-top: 35px;
+    
+    img {
+        height: 64px;
+        margin-top: 60px;
+    }
+    
+    h3 {
+        text-align: center;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    h4 {
+        width: 75%;
+        font-size: .75rem;
+        font-weight: normal;
+        text-align: center;
+    }
+    
+    a {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: @black;
+        border: 2px solid @black;
+    }
+}
+
+.services__items:hover {
+    background: @green;
+    color: white;
+    box-shadow: 2px 3px 5px 5px #555;
+    
+    a {
+        border: 2px solid white;
+        color: white;
+    }
+}
+
+.services:last-child {
+    padding-bottom: 120px;
+}

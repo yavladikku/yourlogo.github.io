@@ -1,0 +1,58 @@
+// main: ../style.less
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: @black;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.intro {
+    background: url("img/first-bg.png") no-repeat top center / cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 190px;
+    
+    h1 {
+        padding-top: 200px;
+        font-size: 3rem;
+        font-weight: normal;
+    }
+    
+    h2 {
+        padding-top: 40px;
+        font-size: 1.2rem;
+        font-weight: normal;
+    }
+    
+    .buttons {
+        margin-top: 110px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.button-1 {
+    margin-right: 25px;
+    border: 3px solid white;
+    padding: 25px 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button-2 {
+    border: 3px solid @green;
+    padding: 25px 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background: @green;
+}
